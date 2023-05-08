@@ -1,3 +1,3 @@
-export const appName = 'ARTFitness. Ivachev Artem IKBO-24-20'
+export const appName = 'ARTFitness. Ивачев Артем ИКБО-24-20'
 export const shortAppName = 'ARTFitness'
-export const appDescription = 'Frontend part of fitness course work. 2023 RTU MIREA'
+export const appDescription = 'Курсовая работа. Сайт для тех, кто любит спорт и желает развиваться. 2023 RTU MIREA'
