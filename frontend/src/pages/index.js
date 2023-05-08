@@ -13,7 +13,7 @@ export default function Default() {
       <div className='hero min-h-screen bg-primary'>
         <div className='hero-content text-center'>
           <div className='max-w-md'>
-            <h1 className='text-5xl font-bold text-base-100'>Activity Tracker</h1>
+            <h1 className='text-5xl font-bold text-base-100'>ARTFitness</h1>
             <p className='py-6 font-light text-base-100'>{appDescription}</p>
             <Link href={user?.isLoggedIn ? '/dashboard/home' : '/login'} className='btn-accent btn'>
               Войти {user?.userData && `как ${user.userData.sub}`}

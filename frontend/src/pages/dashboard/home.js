@@ -38,7 +38,8 @@ const Home = () => {
         <>
           <Header
             title={`Добрый день, ${user?.userData?.sub}`}
-            description='Добро пожаловать в трекер активности'
+            description='Добро пожаловать на сайт ARTFitness! Окунитесь в атмосферу спорта!
+            Здесь вы можете назначать себе тренировки и, тем самым, отслеживать свои результаты!'
           />
           <Info />
           <Activity activities={activities} />
